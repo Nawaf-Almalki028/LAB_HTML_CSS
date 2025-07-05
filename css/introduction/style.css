@@ -1,0 +1,95 @@
+
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url("Images/wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+p {
+  font-size: 1.2em;
+  background-color: #461414;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 2vh 10%;
+}
+
+img {
+  width: 80vw;
+  border-radius: 10px;
+}
+
+li {
+  border: gray solid 1px;
+  padding: 10px 0 10px 0;
+  margin: 5px;
+  width: 50rem;
+}
+
+h1 {
+  text-shadow: 3px 3px 1px gray;
+  margin: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: wheat solid 1px;
+  padding: 10px;
+  margin: 30px;
+  width: 90%;
+  height: auto;
+}
+
+#python-title {
+  background-color: rgb(111, 126, 121);
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+
+.line {
+  display: inline;
+  color: yellow;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.line_block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  z-index: 1000;
+}
+
+.line_block {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  margin: 110px auto;
+}
